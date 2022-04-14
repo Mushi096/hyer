@@ -1,14 +1,19 @@
 body{
-    background-image: url(/Images/background.jpg);
+    padding: 0%;
+    margin: 0%;
 }
 
 .nav{
     display: flex;
     justify-content: space-between;
+    background-image: url('background.jpg');
 }
 
 .logo{
     width: 500px;
+    padding-top: 20px;
+    margin-left: 30px;
+    min-width: 100px;
 }
 
 .nav>ul{
@@ -38,4 +43,60 @@ body{
     border-radius: 100%;
     outline-style: none;
     padding: 0;
+}
+
+content{
+    background-image: url('background.jpg');
+    width: 100%;
+    height: 100vh;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-section2{
+    width: 500px;
+    min-width: 250px;
+    height: max-content;
+    margin-left: 20vw;
+}
+
+.text-section2>h2{
+    font-weight: bolder;
+    line-height: 100%;
+    /* letter-spacing: 0.2em; */
+    font-size: -webkit-xxx-large;
+    font-family: sans-serif;
+}
+
+.section3{
+    display: grid;
+    grid-template-columns: 20vw 20vw;
+    grid-column-gap: 4vw;
+    list-style: none;
+    margin: 0 0 0 40%;
+    padding: 0;
+}
+
+.section3>li{
+    border-top: 1px solid;
+}
+
+.section3>li>div{
+    padding-top: 1.5vw;
+    padding-bottom: 4.5vw;
+}
+
+.section3-heading{
+    margin-top: 0;
+    font-family: sans-serif;
+}
+
+.section3-p>p{
+    margin: 0;
+    font-family: sans-serif;
+    color: grey;
+}
 }
