@@ -3,10 +3,18 @@ body{
     margin: 0%;
 }
 
+.header{
+    background-image: url('bg.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .nav{
     display: flex;
     justify-content: space-between;
-    background-image: url('background.jpg');
 }
 
 .logo{
@@ -19,6 +27,7 @@ body{
 .nav>ul{
     display: flex;
     list-style: none;
+    height: max-content;
 }
 
 .nav>ul>li{
